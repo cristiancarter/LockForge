@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LockForge - Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <div class="main-container">
+            <h1><span class="gradient">LockForge</span> - Get your secure password</h1>
+            <input id="pass-input" type="text" readonly>
+            <div class="copy-alert">
+                <p>Your password has been copied!</p>
+            </div>
+            <div class="copy-error">
+                <p>There is nothing to copy</p>
+            </div>
+            <div class="btn-container">
+            <button id="generate-btn">Generate</button>
+            <button id="copy-btn">Copy</button>
+            </div>
+
+            <div class="char-number">
+                <p>How many characters do you need your password to be?</p>
+                <input type="number" name="" id="chars-number" min="4">
+            </div>
+            <button id="clear-btn">Clear</button>
+
+        </div>
+    </main>
+</body>
+</html>

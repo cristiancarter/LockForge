@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif, arial;
+  height: 100vh;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  background-color: black;
+  padding: .5rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.gradient {
+  background: -webkit-linear-gradient(250deg, rgb(255, 184, 6) 4%, rgb(247, 0, 255) 96%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Container Styles */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0.625rem;
+  background: linear-gradient(250deg, rgb(0, 11, 93) 4%, rgb(55, 2, 57) 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App styling */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container input {
+    width: 50%;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    background-color: rgb(21, 21, 21);
+    color: white;
+}
+
+
+.main-container button {
+    padding: .9rem 2rem;
+    margin-top: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    gap: 1rem;
+}
+
+#generate-btn {
+    background-color: rgb(255, 96, 231);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+  
+}
+
+#copy-btn {
+    background-color: rgba(255, 255, 255, 0.361);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+#clear-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.char-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.copy-alert {
+    margin-top: 1rem;
+    color: rgb(89, 255, 89);
+    background-color: rgba(0, 0, 0, 0.488);
+    padding: .6rem;
+    border-radius: .3rem;
+    display: none;
+}
+.copy-error {
+    margin-top: 1rem;
+    color: rgb(255, 76, 76);
+    background-color: rgba(0, 0, 0, 0.488);
+    padding: .6rem;
+    border-radius: .3rem;
+    display: none;
+}
