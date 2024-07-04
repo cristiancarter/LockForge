@@ -7,4 +7,4 @@ https://cristiancarter.github.io/LockForge/
 
  -- Generates a random password mixed with uppercase and lowercase letters, numbers and symbols
 
- -- Lets 
+ -- Lets you choose the amount of character you want in your password
