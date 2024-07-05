@@ -1,10 +1,20 @@
 # LockForge
 
-https://cristiancarter.github.io/LockForge/
+**LockForge** is a random password generator that enables the following features:
 
+**Link:** [LockForge](https://cristiancarter.github.io/LockForge/)
 
- LockForge is a random password generator that enables the following features:
+-- Generates a random password mixed with uppercase and lowercase letters, numbers, and symbols
 
- -- Generates a random password mixed with uppercase and lowercase letters, numbers and symbols
+-- Lets you choose the amount of characters you want in your password
 
- -- Lets you choose the amount of character you want in your password
+## Current Version
+
+**Version 1.0.1**
+
+## Upcoming Features
+
+**Version 1.1.1** will include:
+
+- Option to customize password generation:
+  - Choose whether to include numbers, symbols, or customize character sets.
